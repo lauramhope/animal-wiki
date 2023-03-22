@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Animal Wiki</title>
+</head>
+<body>
+  <div>
+    <form>
+      <label for="animal">Our webpage offers information about turtles, penguins, and elephants: which animal would you like to learn more about?</label>
+      <input id="animal" type="text">
+      <button type="submit">Submit!</button>
+    </form>
+
+    <div id="turtles" class="hidden">
+      <h1 id="turtle-info"></h1>
+      <h1>Turtles!</h1>
+
+      <h2>Habitat: Aquatic</h2>
+      <ul>
+        <li>Sea Turtles</li>
+        <p>7 species of marine turtles, mostly appearing on coastal beaches for egg laying.</p>
+        <li>Snapping Turtles</li>
+        <p>Several species of freshwater turles, named for their method of biting.</p>
+      </ul>
+
+      <h2>Habitat: Terrestrial</h2>
+      <ul>
+        <li>Box turtles</li>
+        <p>Two groups - Asian and North American - named for their ability tp draw head and limbs completely within the shell.</p>
+        <li>Tortoises</li>
+        <p>Exclusively terrestrial and occur on all continents except Australia and Antartica.</p>
+      </ul>
+    </div>
+
+    <div id="penguins" class="hidden">
+      <h1 id="penguin-info"></h1>
+      <h1>Penguins!</h1>
+
+      <h2>Fun facts:</h2>
+      <ul>
+        <li>18-21 species of flightless marine birds</li>
+        <li>Only live in the Southern Hemisphere</li>
+        <li>Group of penguins in the water is called a raft</li>
+        <li>The black and white "tuxedo" look is a type of camouflage called "countershading"</li>
+      </ul>
+    </div>
+
+    <div id="elephants" class="hidden">
+      <h1 id="elephant-info"></h1>
+      <h1>Elephants!</h1>
+
+      <h2>Elephant Q&A:</h2>
+      <ul>
+        <li>What's the difference between Asian and African Elephants?</li>
+        <p>There are over 10 physical characteristics between the two, including ear size (Asian species are smaller) and tusks (only some male Asian elephants have tusks, which both male and female African elephants grow tusks).</p>
+        <li>How many muscles does an elephant trunk have?</li>
+        <p>Up to 40,000 muscles, used to help them suck up water for drinking, pick up and touch objects, trumpet warnings, and greet one another.</p>
+      </ul>
+    </div>
+    <div id="notListed" class="hidden">
+      <h1>Oops!</h1>
+
+      <p>The animal you have chosen is not on the list, try again!</p>
+    </div>
+  </div>
+</body>
+</html>
